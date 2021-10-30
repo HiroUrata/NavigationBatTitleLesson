@@ -13,6 +13,7 @@
 		540C4F1F272D44B100BD11D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F1D272D44B100BD11D0 /* Main.storyboard */; };
 		540C4F21272D44B400BD11D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F20272D44B400BD11D0 /* Assets.xcassets */; };
 		540C4F24272D44B400BD11D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540C4F22272D44B400BD11D0 /* LaunchScreen.storyboard */; };
+		540C4F2C272D462F00BD11D0 /* SecoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540C4F2B272D462F00BD11D0 /* SecoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		540C4F20272D44B400BD11D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		540C4F23272D44B400BD11D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		540C4F25272D44B400BD11D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		540C4F2B272D462F00BD11D0 /* SecoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				540C4F17272D44B100BD11D0 /* AppDelegate.swift */,
 				540C4F19272D44B100BD11D0 /* SceneDelegate.swift */,
 				540C4F1B272D44B100BD11D0 /* ViewController.swift */,
+				540C4F2B272D462F00BD11D0 /* SecoundViewController.swift */,
 				540C4F1D272D44B100BD11D0 /* Main.storyboard */,
 				540C4F20272D44B400BD11D0 /* Assets.xcassets */,
 				540C4F22272D44B400BD11D0 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				540C4F1C272D44B100BD11D0 /* ViewController.swift in Sources */,
 				540C4F18272D44B100BD11D0 /* AppDelegate.swift in Sources */,
+				540C4F2C272D462F00BD11D0 /* SecoundViewController.swift in Sources */,
 				540C4F1A272D44B100BD11D0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NavigationBatTitle.NavigationBatTitleLesson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.NavigationBatTitle.NavigationBatTitleLesson;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
