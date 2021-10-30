@@ -25,7 +25,15 @@ class ViewController: UIViewController {
 
 extension ViewController:UITableViewDelegate{
     
- 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let selectCell = tableView.cellForRow(at: indexPath)
+        
+        let secoundVC = storyboard?.instantiateViewController(identifier: "secoundVC") as! SecoundViewController
+        secoundVC.navigationItem.title = "\(selectCell?.textLabel?.text ?? "error")を選択"
+        navigationController?.pushViewController(secoundVC, animated: true)
+        
+    }
 }
 
 extension ViewController:UITableViewDataSource{
